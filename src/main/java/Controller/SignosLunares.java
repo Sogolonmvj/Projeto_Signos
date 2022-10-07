@@ -18,7 +18,7 @@ public class SignosLunares {
             }
         }
 
-        if (zona.contains("São_Paulo")) {
+        if (zona.contains("São_Paulo") || zona.contains("Sao_Paulo")) {
             return "Gandalf";
         }
 
