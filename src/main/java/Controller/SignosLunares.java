@@ -12,7 +12,7 @@ public class SignosLunares {
             }
         }
 
-        if (zona.contains("Cuiaba")) {
+        if (zona.contains("Cuiabá") || zona.contains("Cuiaba")) {
             if (time.isBefore(LocalTime.NOON)) {
                 return "Odin";
             }
